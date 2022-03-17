@@ -161,7 +161,8 @@ class PHPJasper
                 'db_sid' => '--db-sid',
                 'xml_xpath' => '--xml-xpath',
                 'data_file' => '--data-file',
-                'json_query' => '--json-query'
+                'json_query' => '--json-query',
+                'json_locale' => '--json-locale'
             ];
 
             foreach ($options['db_connection'] as $key => $value) {
